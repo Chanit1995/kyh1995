@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ปักหมุดสถานที่</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>📍 ปักหมุดสถานที่</h2>
+  <div id="map"></div>
+  <input type="text" id="placeName" placeholder="ใส่ชื่อสถานที่..." />
+  <p id="address"></p>
+  <button id="saveBtn">💾 Save Place</button>
+  <h3>📋 สถานที่ที่บันทึกไว้</h3>
+  <input type="text" id="searchInput" placeholder="ค้นหา..." />
+  <ul id="placesList"></ul>
+  <script src="script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVoN3PKPtTJasoVjRi268KZrs4jaV_0OA&callback=initMap"></script>
+</body>
+</html>
